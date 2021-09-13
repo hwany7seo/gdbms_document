@@ -1,2 +1,2 @@
-# WBS
+# WBS\(work-breakdown structure\)
 
