@@ -18,7 +18,8 @@
 ||V-View-09|결과 출력 선택기능|Label,properties,Relatonship등 원하는 Text만 출력하도록 지원|2021-09-14|서태환|
 ||V-View-10|Highlight기능|선택된 노트부터 Relationship까지 하이라이트 선택기능 제공(다중)|2021-09-14|서태환|
 |기능버튼|F-Button-01|export 기능|csv Or image 내보내기 기능 제공|2021-09-14|서태환|
-|검색|Search-01|Label검색기능|Label 만으로 검색할수 있는 기능 제공|2021-09-14|서태환|
+|검색|Search-01|Vertex검색기능|Vertex 만으로 검색할수 있는 기능 제공|2021-09-14|서태환|
 ||Search-01|properties 검색기능|properties 만으로 검색할수 있는 기능 제공|2021-09-14|서태환|
-||Search-02|관계검색기능|Relationship 만으로 검색할수 있는 기능 제공|2021-09-14|서태환|
+||Search-02|관계검색기능|edge 만으로 검색할수 있는 기능 제공|2021-09-14|서태환|
 |query -View|query -01|query 저장기능|자주사용하는 query를 저장할수 있는 기능을 제공한다.|2021-09-14|서태환|
+|속성View|properties-01|Properties View 제공|Vertex 선택시 Properties를 확인 할수 있는 창 제공|2021-09-14|서태환|
