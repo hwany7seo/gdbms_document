@@ -23,7 +23,7 @@
 ||Search-02|부분검색기능|Vertex ,Properties, edge 중 단일,복수선택하여 해당 범위 내에서만 Text로 검색할수 있는 기능을 제공한다. (OPTION 추가)|2021-09-14|서태환|
 |Query View|Query-01|Query View 제공|규약된 언어를 입력 할 수 있는 Query View를 제공한다. |2021-09-14|서태환|
 ||Query-02|Query 저장기능|Query View에서는 자주 사용하는 query를 저장할수 있는 기능을 제공한다.|2021-09-14|서태환|
-|상세정보 View|[Detail-01](#detail-01)|상세정보 View 제공|Vertex Or edge 선택시 Properties를 확인 할수 있는 View 제공한다.|2021-09-14|서태환|
+|상세정보 View|[Detail-01](#detail-01)|상세정보 View 제공|Vertex 또는 Edge 선택시 Properties를 확인 할수 있는 View 제공한다.|2021-09-14|서태환|
 |속성 Chart View|[P-Chart-01](#p-chart-01)|결과 단순화표현|시각화 결과 정보를 Property 선택을 통해 Table, chart등으로 표현한다.<br>(검색된 결과에서 property 종류를 검색하여 list로 만들고 property를 선택하여 결과를 만듬) |2021-09-14|서태환|
 
 ---
