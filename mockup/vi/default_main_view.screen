@@ -2,13 +2,8 @@
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:WidgetGroup" id="98" x="-8" y="17" measuredWidth="272" measuredHeight="425">
     <widgets xsi:type="model:Window" id="6" width="271" height="424" text="Database Navigator" measuredWidth="271" measuredHeight="424"/>
-    <widgets xsi:type="model:Tree" id="13" y="18" width="272" height="407" text="TouboGraph++&#xA;-192.168.56.2(connected)&#xA;Cubrid-GDBMS&#xA;-192.168.56.3(not conneted)&#xA;JanusGraph&#xA;-192.168.56.4(not conneted)" measuredWidth="272" measuredHeight="407" verticalScrollbar="true">
-      <items x="0" y="5" width="255" height="21" text="TouboGraph++"/>
-      <items link="connection_Popup.screen" x="0" y="26" width="255" height="21" text="-192.168.56.2(connected)"/>
-      <items x="0" y="47" width="255" height="21" text="Cubrid-GDBMS"/>
-      <items x="0" y="68" width="255" height="21" text="-192.168.56.3(not conneted)"/>
-      <items x="0" y="89" width="255" height="21" text="JanusGraph"/>
-      <items x="0" y="110" width="255" height="21" text="-192.168.56.4(not conneted)"/>
+    <widgets xsi:type="model:Tree" id="13" y="18" width="272" height="407" measuredWidth="272" measuredHeight="407" verticalScrollbar="true">
+      <items x="0" y="5" width="255" height="21"/>
       <font/>
     </widgets>
   </widgets>
@@ -73,7 +68,7 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Popup" id="64" x="688" y="533" width="153" text="{undo} ~&amp;Undo~, Ctrl+Z&#xA;{redo} ~&amp;Redo~, Ctrl+Y&#xA;---&#xA;~Highlight~&#xA;~Delete~&#xA;---&#xA;align, >&#xA;pettern, >" measuredWidth="153" measuredHeight="164">
+  <widgets xsi:type="model:Popup" id="64" x="1200" y="880" width="153" text="{undo} ~&amp;Undo~, Ctrl+Z&#xA;{redo} ~&amp;Redo~, Ctrl+Y&#xA;---&#xA;~Highlight~&#xA;~Delete~&#xA;---&#xA;align, >&#xA;pettern, >" measuredWidth="153" measuredHeight="164">
     <items x="0" y="2" width="153" height="23" text="{undo} ~&amp;Undo~, Ctrl+Z"/>
     <items x="0" y="25" width="153" height="23" text="{redo} ~&amp;Redo~, Ctrl+Y"/>
     <items x="0" y="48" width="153" height="11" text="---"/>
@@ -90,15 +85,15 @@
     <items x="0" y="2" width="71" height="21" text="Label"/>
     <items x="0" y="23" width="71" height="21" text="Properties"/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="76" x="56" y="240" width="169" text="SQL 편집기&#xA;---&#xA;~연결편집~&#xA;~재연결~&#xA;~연결/종료~&#xA;---&#xA;추가&#xA;삭제&#xA;" measuredWidth="169" measuredHeight="164" selection="4">
-    <items x="0" y="2" width="169" height="23" text="SQL 편집기"/>
+  <widgets xsi:type="model:Popup" id="76" x="336" y="928" width="169" text="~SQL 편집기~&#xA;---&#xA;~연결편집~&#xA;~재연결~&#xA;~연결/종료~&#xA;---&#xA;추가&#xA;~삭제~&#xA;" measuredWidth="169" measuredHeight="164" selection="6">
+    <items x="0" y="2" width="169" height="23" text="~SQL 편집기~"/>
     <items x="0" y="25" width="169" height="11" text="---"/>
     <items x="0" y="36" width="169" height="23" text="~연결편집~"/>
     <items x="0" y="59" width="169" height="23" text="~재연결~"/>
     <items x="0" y="82" width="169" height="23" text="~연결/종료~"/>
     <items x="0" y="105" width="169" height="11" text="---"/>
     <items x="0" y="116" width="169" height="23" text="추가"/>
-    <items x="0" y="139" width="169" height="23" text="삭제"/>
+    <items x="0" y="139" width="169" height="23" text="~삭제~"/>
   </widgets>
   <widgets xsi:type="model:List" id="78" x="1162" y="360" width="71" height="25" text="Label&#xA;true&#xA;false&#xA;&#xA;" measuredWidth="71" measuredHeight="25" selection="6">
     <font/>
@@ -129,9 +124,8 @@
   <widgets xsi:type="model:Panel" id="103" x="265" y="415" width="40" height="330" measuredWidth="40" measuredHeight="330"/>
   <widgets xsi:type="model:WidgetGroup" id="122" x="263" y="44" measuredWidth="664" measuredHeight="180">
     <widgets xsi:type="model:WidgetGroup" id="115" measuredWidth="664" measuredHeight="180">
-      <widgets xsi:type="model:TabbedPane" id="108" width="664" height="180" text="TouboGraph++, Cubrid-GDBMS" measuredWidth="664" measuredHeight="180" selection="0" alpha="0">
-        <items x="10" y="0" width="103" height="27" text="TouboGraph++"/>
-        <items x="113" y="0" width="104" height="27" text="Cubrid-GDBMS"/>
+      <widgets xsi:type="model:TabbedPane" id="108" width="664" height="180" text="None" measuredWidth="664" measuredHeight="180" selection="0" alpha="0">
+        <items x="10" y="0" width="50" height="27" text="None"/>
         <font/>
       </widgets>
       <widgets xsi:type="model:WidgetGroup" id="112" y="27" measuredWidth="663" measuredHeight="153">
@@ -146,10 +140,22 @@
     <widgets xsi:type="model:Icon" id="120" x="6" y="87" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/fa-file-download (custom)"/>
     <widgets xsi:type="model:Icon" id="121" x="5" y="145" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/ic-play-arrow (custom)"/>
   </widgets>
+  <widgets xsi:type="model:Popup" id="123" x="528" y="928" width="169" text="SQL 편집기&#xA;---&#xA;연결편집&#xA;재연결&#xA;연결/종료&#xA;---&#xA;추가&#xA;삭제&#xA;" measuredWidth="169" measuredHeight="164" selection="2">
+    <items x="0" y="2" width="169" height="23" text="SQL 편집기"/>
+    <items x="0" y="25" width="169" height="11" text="---"/>
+    <items x="0" y="36" width="169" height="23" text="연결편집"/>
+    <items x="0" y="59" width="169" height="23" text="재연결"/>
+    <items x="0" y="82" width="169" height="23" text="연결/종료"/>
+    <items x="0" y="105" width="169" height="11" text="---"/>
+    <items x="0" y="116" width="169" height="23" text="추가"/>
+    <items x="0" y="139" width="169" height="23" text="삭제"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="124" x="168" y="18" width="17" height="17" measuredWidth="17" measuredHeight="17" icon="squared-plus (custom)"/>
+  <widgets xsi:type="model:Icon" id="125" x="185" y="18" width="17" height="17" measuredWidth="17" measuredHeight="17" icon="squared-minus (custom)"/>
+  <widgets xsi:type="model:Icon" id="126" x="203" y="19" width="17" height="17" measuredWidth="17" measuredHeight="17" icon="filter (custom)"/>
   <hRuler>
-    <guides position="-12"/>
+    <guides position="-9"/>
     <guides position="1563"/>
-    <guides position="-69"/>
   </hRuler>
   <vRuler/>
   <font size="12px"/>

@@ -73,7 +73,7 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Popup" id="64" x="688" y="533" width="153" text="{undo} ~&amp;Undo~, Ctrl+Z&#xA;{redo} ~&amp;Redo~, Ctrl+Y&#xA;---&#xA;~Highlight~&#xA;~Delete~&#xA;---&#xA;align, >&#xA;pettern, >" measuredWidth="153" measuredHeight="164">
+  <widgets xsi:type="model:Popup" id="64" x="720" y="928" width="153" text="{undo} ~&amp;Undo~, Ctrl+Z&#xA;{redo} ~&amp;Redo~, Ctrl+Y&#xA;---&#xA;~Highlight~&#xA;~Delete~&#xA;---&#xA;align, >&#xA;pettern, >" measuredWidth="153" measuredHeight="164">
     <items x="0" y="2" width="153" height="23" text="{undo} ~&amp;Undo~, Ctrl+Z"/>
     <items x="0" y="25" width="153" height="23" text="{redo} ~&amp;Redo~, Ctrl+Y"/>
     <items x="0" y="48" width="153" height="11" text="---"/>
@@ -90,12 +90,12 @@
     <items x="0" y="2" width="71" height="21" text="Label"/>
     <items x="0" y="23" width="71" height="21" text="Properties"/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="76" x="56" y="240" width="169" text="SQL 편집기&#xA;---&#xA;~연결편집~&#xA;~재연결~&#xA;~연결/종료~&#xA;---&#xA;추가&#xA;삭제&#xA;" measuredWidth="169" measuredHeight="164" selection="4">
+  <widgets xsi:type="model:Popup" id="76" x="275" y="928" width="169" text="SQL 편집기&#xA;---&#xA;연결편집&#xA;재연결&#xA;연결/종료&#xA;---&#xA;추가&#xA;삭제&#xA;" measuredWidth="169" measuredHeight="164" selection="0">
     <items x="0" y="2" width="169" height="23" text="SQL 편집기"/>
     <items x="0" y="25" width="169" height="11" text="---"/>
-    <items x="0" y="36" width="169" height="23" text="~연결편집~"/>
-    <items x="0" y="59" width="169" height="23" text="~재연결~"/>
-    <items x="0" y="82" width="169" height="23" text="~연결/종료~"/>
+    <items x="0" y="36" width="169" height="23" text="연결편집"/>
+    <items x="0" y="59" width="169" height="23" text="재연결"/>
+    <items x="0" y="82" width="169" height="23" text="연결/종료"/>
     <items x="0" y="105" width="169" height="11" text="---"/>
     <items x="0" y="116" width="169" height="23" text="추가"/>
     <items x="0" y="139" width="169" height="23" text="삭제"/>
@@ -129,9 +129,8 @@
   <widgets xsi:type="model:Panel" id="103" x="265" y="415" width="40" height="330" measuredWidth="40" measuredHeight="330"/>
   <widgets xsi:type="model:WidgetGroup" id="122" x="263" y="44" measuredWidth="664" measuredHeight="180">
     <widgets xsi:type="model:WidgetGroup" id="115" measuredWidth="664" measuredHeight="180">
-      <widgets xsi:type="model:TabbedPane" id="108" width="664" height="180" text="TouboGraph++, Cubrid-GDBMS" measuredWidth="664" measuredHeight="180" selection="0" alpha="0">
+      <widgets xsi:type="model:TabbedPane" id="108" width="664" height="180" text="TouboGraph++" measuredWidth="664" measuredHeight="180" selection="0" alpha="0">
         <items x="10" y="0" width="103" height="27" text="TouboGraph++"/>
-        <items x="113" y="0" width="104" height="27" text="Cubrid-GDBMS"/>
         <font/>
       </widgets>
       <widgets xsi:type="model:WidgetGroup" id="112" y="27" measuredWidth="663" measuredHeight="153">
