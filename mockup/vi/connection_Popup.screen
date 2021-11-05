@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" width="497" height="321" text="Connect (Turbo Graph++)" measuredWidth="497" measuredHeight="321"/>
+  <widgets xsi:type="model:Label" id="2" x="16" y="48" width="89" text="host :" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="3" x="54" y="47" width="169" text="192.168.1.1" measuredWidth="169" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="16" y="80" text="port" measuredWidth="28" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="5" x="54" y="80" width="169" text="8281" measuredWidth="169" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="6" x="264" y="264" width="89" height="33" text="Connect" measuredWidth="89" measuredHeight="33">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="7" x="376" y="264" width="97" height="33" text="test connection" measuredWidth="97" measuredHeight="33" link="test_connection.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="15" x="16" y="149" measuredWidth="441" measuredHeight="73">
+    <widgets xsi:type="model:Group" id="9" width="441" height="73" text="authProperties" measuredWidth="441" measuredHeight="73">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="10" x="10" y="18" width="89" text="user :" measuredWidth="89" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="11" x="48" y="17" width="169" text="dba" measuredWidth="169" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="12" x="10" y="45" text="password :" measuredWidth="63" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="13" x="70" y="46" width="169" text="****" measuredWidth="169" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="14" x="248" y="46" text="Save password locally" measuredWidth="138" measuredHeight="23" selected="true">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="16" x="16" y="120" text="enable Ssl" measuredWidth="75" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
