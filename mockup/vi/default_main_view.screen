@@ -58,16 +58,6 @@
   <widgets xsi:type="model:Table" id="50" x="928" y="293" width="305" height="218" text="Type,Value&#xA;Maximum Item Number, 1000&#xA;Vertex Visible Text&#xA;Edge Visible Text" measuredWidth="305" measuredHeight="218" alternative="#eee">
     <font/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="63" x="263" y="224" height="153" measuredWidth="667" measuredHeight="153">
-    <widgets xsi:type="model:TabbedPane" id="62" x="2" width="662" height="153" text="Log view, Plan view" measuredWidth="662" measuredHeight="153" selection="0">
-      <items x="10" y="0" width="69" height="27" text="Log view"/>
-      <items x="79" y="0" width="72" height="27" text="Plan view"/>
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:TextArea" id="54" y="22" width="667" height="130" text="&#xD;&#xA;success(82ms)" measuredWidth="667" measuredHeight="130">
-      <font/>
-    </widgets>
-  </widgets>
   <widgets xsi:type="model:Popup" id="64" x="1200" y="880" width="153" text="{undo} ~&amp;Undo~, Ctrl+Z&#xA;{redo} ~&amp;Redo~, Ctrl+Y&#xA;---&#xA;~Highlight~&#xA;~Delete~&#xA;---&#xA;align, >&#xA;pettern, >" measuredWidth="153" measuredHeight="164">
     <items x="0" y="2" width="153" height="23" text="{undo} ~&amp;Undo~, Ctrl+Z"/>
     <items x="0" y="25" width="153" height="23" text="{redo} ~&amp;Redo~, Ctrl+Y"/>
@@ -102,18 +92,6 @@
     <items x="0" y="44" width="71" height="21" text="false"/>
     <items x="0" y="65" width="71" height="21"/>
   </widgets>
-  <widgets xsi:type="model:SearchField" id="17" x="268" y="22" width="661" text="Search" measuredWidth="661" measuredHeight="24">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Checkbox" id="18" x="568" y="23" text="Vertex" measuredWidth="55" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Checkbox" id="19" x="650" y="22" text="Edge" measuredWidth="47" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Checkbox" id="20" x="728" y="22" text="Properties" measuredWidth="74" measuredHeight="23">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Label" id="85" x="476" y="564" width="53" text="actor-in" measuredWidth="53" measuredHeight="23">
     <font/>
   </widgets>
@@ -122,24 +100,6 @@
   </widgets>
   <widgets xsi:type="model:Panel" id="96" x="265" y="437" width="648" height="41" measuredWidth="648" measuredHeight="41" alpha="0"/>
   <widgets xsi:type="model:Panel" id="103" x="265" y="415" width="40" height="330" measuredWidth="40" measuredHeight="330"/>
-  <widgets xsi:type="model:WidgetGroup" id="122" x="263" y="44" measuredWidth="664" measuredHeight="180">
-    <widgets xsi:type="model:WidgetGroup" id="115" measuredWidth="664" measuredHeight="180">
-      <widgets xsi:type="model:TabbedPane" id="108" width="664" height="180" text="None" measuredWidth="664" measuredHeight="180" selection="0" alpha="0">
-        <items x="10" y="0" width="50" height="27" text="None"/>
-        <font/>
-      </widgets>
-      <widgets xsi:type="model:WidgetGroup" id="112" y="27" measuredWidth="663" measuredHeight="153">
-        <widgets xsi:type="model:TextArea" id="53" x="37" width="626" height="153" text="g.V.filter{it.name.matches(&quot;*Cruise*&quot;)}.name&#xA;g.V.&#xA;" measuredWidth="626" measuredHeight="153" verticalScrollbar="true" alpha="226">
-          <font/>
-        </widgets>
-        <widgets xsi:type="model:Panel" id="106" y="1" width="38" height="152" measuredWidth="38" measuredHeight="152" alpha="0"/>
-      </widgets>
-    </widgets>
-    <widgets xsi:type="model:Icon" id="118" x="6" y="33" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/ic-add-to-queue (custom)"/>
-    <widgets xsi:type="model:Icon" id="119" x="8" y="59" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/fa-folder-open (custom)"/>
-    <widgets xsi:type="model:Icon" id="120" x="6" y="87" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/fa-file-download (custom)"/>
-    <widgets xsi:type="model:Icon" id="121" x="5" y="145" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/ic-play-arrow (custom)"/>
-  </widgets>
   <widgets xsi:type="model:Popup" id="123" x="528" y="928" width="169" text="SQL 편집기&#xA;---&#xA;연결편집&#xA;재연결&#xA;연결/종료&#xA;---&#xA;추가&#xA;삭제&#xA;" measuredWidth="169" measuredHeight="164" selection="2">
     <items x="0" y="2" width="169" height="23" text="SQL 편집기"/>
     <items x="0" y="25" width="169" height="11" text="---"/>
@@ -153,6 +113,48 @@
   <widgets xsi:type="model:Icon" id="124" x="168" y="18" width="17" height="17" measuredWidth="17" measuredHeight="17" icon="squared-plus (custom)"/>
   <widgets xsi:type="model:Icon" id="125" x="185" y="18" width="17" height="17" measuredWidth="17" measuredHeight="17" icon="squared-minus (custom)"/>
   <widgets xsi:type="model:Icon" id="126" x="203" y="19" width="17" height="17" measuredWidth="17" measuredHeight="17" icon="filter (custom)"/>
+  <widgets xsi:type="model:WidgetGroup" id="136" x="265" y="46" measuredWidth="664" measuredHeight="180">
+    <widgets xsi:type="model:TabbedPane" id="137" width="664" height="180" text="none" measuredWidth="664" measuredHeight="180" selection="0" alpha="0">
+      <items x="10" y="0" width="48" height="27" text="none"/>
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="138" y="27" width="661" measuredWidth="660" measuredHeight="153">
+      <widgets xsi:type="model:TextArea" id="139" x="36" width="624" height="153" text="g.V.filter{it.name.matches(&quot;*Cruise*&quot;)}.name&#xA;g.V.&#xA;" measuredWidth="624" measuredHeight="153" verticalScrollbar="true" alpha="226">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Panel" id="140" y="1" width="37" height="152" measuredWidth="37" measuredHeight="152" alpha="0"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="141" x="7" y="34" width="26" height="25" measuredWidth="26" measuredHeight="25" icon="assets/fa-folder-open (custom)"/>
+    <widgets xsi:type="model:Icon" id="142" x="6" y="62" width="26" height="25" measuredWidth="26" measuredHeight="25" icon="assets/fa-file-download (custom)"/>
+    <widgets xsi:type="model:Icon" id="143" x="4" y="145" width="26" height="25" measuredWidth="26" measuredHeight="25" icon="assets/ic-play-circle-outline (custom)"/>
+    <widgets xsi:type="model:Icon" id="144" x="3" y="118" width="29" height="25" measuredWidth="29" measuredHeight="25" icon="assets/fa-parking (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="146" x="268" y="22" measuredWidth="661" measuredHeight="24">
+    <widgets xsi:type="model:SearchField" id="147" width="661" text="Search" measuredWidth="661" measuredHeight="24">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="148" x="340" y="1" text="Vertex" measuredWidth="55" measuredHeight="23" selected="true">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="149" x="412" text="Edge" measuredWidth="47" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="150" x="482" text="Properties" measuredWidth="74" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="151" x="266" y="1" width="27" height="23" measuredWidth="27" measuredHeight="23" icon="assets/ic-play-circle-outline (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="152" x="263" y="224" height="153" measuredWidth="667" measuredHeight="153">
+    <widgets xsi:type="model:TabbedPane" id="153" x="2" width="662" height="153" text="Log view, Table view, Plan view" measuredWidth="662" measuredHeight="153" selection="2">
+      <items x="10" y="0" width="69" height="27" text="Log view"/>
+      <items x="79" y="0" width="77" height="27" text="Table view"/>
+      <items x="156" y="0" width="72" height="27" text="Plan view"/>
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="154" y="22" width="667" height="130" text="success (128ms)" measuredWidth="667" measuredHeight="130">
+      <font/>
+    </widgets>
+  </widgets>
   <hRuler>
     <guides position="-9"/>
     <guides position="1563"/>

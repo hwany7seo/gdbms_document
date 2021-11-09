@@ -2,7 +2,7 @@
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:WidgetGroup" id="98" x="-8" y="17" measuredWidth="272" measuredHeight="425">
     <widgets xsi:type="model:Window" id="6" width="271" height="424" text="Database Navigator" measuredWidth="271" measuredHeight="424"/>
-    <widgets xsi:type="model:Tree" id="13" y="18" width="272" height="407" text="TouboGraph++&#xA;-192.168.56.2(connected)&#xA;Cubrid-GDBMS&#xA;-192.168.56.3(not conneted)&#xA;JanusGraph&#xA;-192.168.56.4(not conneted)" measuredWidth="272" measuredHeight="407" verticalScrollbar="true">
+    <widgets xsi:type="model:Tree" id="13" y="18" width="272" height="407" text="TouboGraph++&#xA;-192.168.56.2(connected)&#xA;Cubrid-GDBMS&#xA;-192.168.56.3(not conneted)&#xA;JanusGraph&#xA;-192.168.56.4(not conneted)" measuredWidth="272" measuredHeight="407" verticalScrollbar="true" selection="0">
       <items x="0" y="5" width="255" height="21" text="TouboGraph++"/>
       <items link="connection_Popup.screen" x="0" y="26" width="255" height="21" text="-192.168.56.2(connected)"/>
       <items x="0" y="47" width="255" height="21" text="Cubrid-GDBMS"/>
@@ -64,12 +64,16 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="63" x="263" y="224" height="153" measuredWidth="667" measuredHeight="153">
-    <widgets xsi:type="model:TabbedPane" id="62" x="2" width="662" height="153" text="Log view, Plan view" measuredWidth="662" measuredHeight="153" selection="0">
+    <widgets xsi:type="model:TabbedPane" id="62" x="2" width="662" height="153" text="Log view, Table view, Plan view" measuredWidth="662" measuredHeight="153" selection="1">
       <items x="10" y="0" width="69" height="27" text="Log view"/>
-      <items x="79" y="0" width="72" height="27" text="Plan view"/>
+      <items x="79" y="0" width="77" height="27" text="Table view"/>
+      <items x="156" y="0" width="72" height="27" text="Plan view"/>
       <font/>
     </widgets>
-    <widgets xsi:type="model:TextArea" id="54" y="22" width="667" height="130" text="&#xD;&#xA;success(82ms)" measuredWidth="667" measuredHeight="130">
+    <widgets xsi:type="model:TextArea" id="54" y="22" width="667" height="130" measuredWidth="667" measuredHeight="130">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Table" id="129" x="12" y="37" width="630" height="100" text="Type,Label,Property(title),Property(name)&#xA;Vertex,movie,Top GUN&#xA;Edge,Actor-In&#xA;Vertex,actor,,Tom Cruise&#xA;" measuredWidth="630" measuredHeight="100" alternative="#eee">
       <font/>
     </widgets>
   </widgets>
@@ -107,18 +111,6 @@
     <items x="0" y="44" width="71" height="21" text="false"/>
     <items x="0" y="65" width="71" height="21"/>
   </widgets>
-  <widgets xsi:type="model:SearchField" id="17" x="268" y="22" width="661" text="Search" measuredWidth="661" measuredHeight="24">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Checkbox" id="18" x="568" y="23" text="Vertex" measuredWidth="55" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Checkbox" id="19" x="650" y="22" text="Edge" measuredWidth="47" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Checkbox" id="20" x="728" y="22" text="Properties" measuredWidth="74" measuredHeight="23">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Label" id="85" x="476" y="564" width="53" text="actor-in" measuredWidth="53" measuredHeight="23">
     <font/>
   </widgets>
@@ -127,23 +119,39 @@
   </widgets>
   <widgets xsi:type="model:Panel" id="96" x="265" y="437" width="648" height="41" measuredWidth="648" measuredHeight="41" alpha="0"/>
   <widgets xsi:type="model:Panel" id="103" x="265" y="415" width="40" height="330" measuredWidth="40" measuredHeight="330"/>
-  <widgets xsi:type="model:WidgetGroup" id="122" x="263" y="44" measuredWidth="664" measuredHeight="180">
-    <widgets xsi:type="model:WidgetGroup" id="115" measuredWidth="664" measuredHeight="180">
-      <widgets xsi:type="model:TabbedPane" id="108" width="664" height="180" text="TouboGraph++" measuredWidth="664" measuredHeight="180" selection="0" alpha="0">
-        <items x="10" y="0" width="103" height="27" text="TouboGraph++"/>
+  <widgets xsi:type="model:Icon" id="123" x="168" y="18" width="17" height="17" measuredWidth="17" measuredHeight="17" icon="squared-plus (custom)"/>
+  <widgets xsi:type="model:Icon" id="124" x="185" y="18" width="17" height="17" measuredWidth="17" measuredHeight="17" icon="squared-minus (custom)"/>
+  <widgets xsi:type="model:Icon" id="125" x="203" y="19" width="17" height="17" measuredWidth="17" measuredHeight="17" icon="filter (custom)"/>
+  <widgets xsi:type="model:WidgetGroup" id="130" x="263" y="44" measuredWidth="664" measuredHeight="180">
+    <widgets xsi:type="model:TabbedPane" id="108" width="664" height="180" text="TouboGraph++" measuredWidth="664" measuredHeight="180" selection="0" alpha="0">
+      <items x="10" y="0" width="103" height="27" text="TouboGraph++"/>
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="112" y="27" measuredWidth="663" measuredHeight="153">
+      <widgets xsi:type="model:TextArea" id="53" x="37" width="626" height="153" text="g.V.filter{it.name.matches(&quot;*Cruise*&quot;)}.name&#xA;g.V.&#xA;" measuredWidth="626" measuredHeight="153" verticalScrollbar="true" alpha="226">
         <font/>
       </widgets>
-      <widgets xsi:type="model:WidgetGroup" id="112" y="27" measuredWidth="663" measuredHeight="153">
-        <widgets xsi:type="model:TextArea" id="53" x="37" width="626" height="153" text="g.V.filter{it.name.matches(&quot;*Cruise*&quot;)}.name&#xA;g.V.&#xA;" measuredWidth="626" measuredHeight="153" verticalScrollbar="true" alpha="226">
-          <font/>
-        </widgets>
-        <widgets xsi:type="model:Panel" id="106" y="1" width="38" height="152" measuredWidth="38" measuredHeight="152" alpha="0"/>
-      </widgets>
+      <widgets xsi:type="model:Panel" id="106" y="1" width="38" height="152" measuredWidth="38" measuredHeight="152" alpha="0"/>
     </widgets>
-    <widgets xsi:type="model:Icon" id="118" x="6" y="33" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/ic-add-to-queue (custom)"/>
-    <widgets xsi:type="model:Icon" id="119" x="8" y="59" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/fa-folder-open (custom)"/>
-    <widgets xsi:type="model:Icon" id="120" x="6" y="87" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/fa-file-download (custom)"/>
-    <widgets xsi:type="model:Icon" id="121" x="5" y="145" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/ic-play-arrow (custom)"/>
+    <widgets xsi:type="model:Icon" id="119" x="8" y="34" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/fa-folder-open (custom)"/>
+    <widgets xsi:type="model:Icon" id="120" x="7" y="62" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/fa-file-download (custom)"/>
+    <widgets xsi:type="model:Icon" id="121" x="5" y="145" width="27" height="25" measuredWidth="27" measuredHeight="25" icon="assets/ic-play-circle-outline (custom)"/>
+    <widgets xsi:type="model:Icon" id="126" x="4" y="118" width="30" height="25" measuredWidth="30" measuredHeight="25" icon="assets/fa-parking (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="131" x="268" y="22" measuredWidth="661" measuredHeight="24">
+    <widgets xsi:type="model:SearchField" id="17" width="661" text="Search" measuredWidth="661" measuredHeight="24">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="18" x="340" y="1" text="Vertex" measuredWidth="55" measuredHeight="23" selected="true">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="19" x="412" text="Edge" measuredWidth="47" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="20" x="482" text="Properties" measuredWidth="74" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="128" x="266" y="1" width="27" height="23" measuredWidth="27" measuredHeight="23" icon="assets/ic-play-circle-outline (custom)"/>
   </widgets>
   <hRuler>
     <guides position="-12"/>
