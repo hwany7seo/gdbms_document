@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:WidgetGroup" id="25" x="32" y="32" measuredWidth="585" measuredHeight="337">
-    <widgets xsi:type="model:Window" id="7" width="585" height="337" text="Query 불러오기" measuredWidth="585" measuredHeight="337" minimizeButton="true" maximizeButton="true"/>
+    <widgets xsi:type="model:Window" id="7" width="585" height="337" text="이미지로 저장하기" measuredWidth="585" measuredHeight="337" minimizeButton="true" maximizeButton="true"/>
     <widgets xsi:type="model:Label" id="11" x="34" y="265" width="121" text="파일이름 :" measuredWidth="121" measuredHeight="23">
       <font/>
     </widgets>
@@ -13,10 +13,10 @@
       <widgets xsi:type="model:Button" id="10" x="460" y="268" width="97" height="33" text="취소" measuredWidth="97" measuredHeight="33">
         <font/>
       </widgets>
-      <widgets xsi:type="model:Combo" id="12" x="92" y="236" width="273" measuredWidth="273" measuredHeight="23">
+      <widgets xsi:type="model:Combo" id="12" x="92" y="236" width="273" text="result.png" measuredWidth="273" measuredHeight="23">
         <font/>
       </widgets>
-      <widgets xsi:type="model:Combo" id="13" x="380" y="236" width="177" text="*.txt&#xD;&#xA;" measuredWidth="177" measuredHeight="23">
+      <widgets xsi:type="model:Combo" id="13" x="380" y="236" width="177" text="*.png&#xD;&#xA;" measuredWidth="177" measuredHeight="23">
         <font/>
       </widgets>
       <widgets xsi:type="model:Tree" id="15" y="36" width="85" height="177" text="내 PC&#xA;-c:&#xA;-d:&#xA;" measuredWidth="85" measuredHeight="177">

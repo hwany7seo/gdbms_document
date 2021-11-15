@@ -42,7 +42,7 @@
     <items x="10" y="0" width="131" height="27" text="Visualization Setting"/>
     <font/>
   </widgets>
-  <widgets xsi:type="model:Table" id="50" x="928" y="293" width="305" height="218" text="Type,Value&#xA;Maximum Item Number, 1000&#xA;Vertex Visible Text&#xA;Edge Visible Text" measuredWidth="305" measuredHeight="218" alternative="#eee">
+  <widgets xsi:type="model:Table" id="50" x="925" y="293" width="305" height="218" text="Type,Value&#xA;Maximum Item Number, 1000&#xA;Vertex Visible Text&#xA;Edge Visible Text" measuredWidth="305" measuredHeight="218" alternative="#eee">
     <font/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="63" x="263" y="224" height="153" measuredWidth="667" measuredHeight="153">
@@ -125,12 +125,10 @@
     </widgets>
     <widgets xsi:type="model:Icon" id="128" x="266" y="1" width="27" height="23" measuredWidth="27" measuredHeight="23" icon="assets/ic-play-circle-outline (custom)"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="220" x="261" y="376" measuredWidth="666" measuredHeight="387">
-    <widgets xsi:type="model:Panel" id="221" x="1" width="665" height="387" measuredWidth="665" measuredHeight="387"/>
-    <widgets xsi:type="model:VScrollbar" id="222" x="646" y="40" height="344" measuredWidth="17" measuredHeight="344"/>
-    <widgets xsi:type="model:HScrollbar" id="223" y="367" width="646" measuredWidth="646" measuredHeight="17"/>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="224" x="261" y="376" measuredWidth="49" measuredHeight="368">
+  <widgets xsi:type="model:Icon" id="349" x="344" y="1248" width="97" height="73" measuredWidth="97" measuredHeight="73" icon="assets/fa-file-csv (custom)"/>
+  <widgets xsi:type="model:Icon" id="350" x="472" y="1246" width="65" height="71" measuredWidth="65" measuredHeight="71" icon="assets/fa-camera (custom)"/>
+  <widgets xsi:type="model:HScrollbar" id="223" x="261" y="743" width="646" measuredWidth="646" measuredHeight="17"/>
+  <widgets xsi:type="model:WidgetGroup" id="370" x="261" y="376" measuredWidth="49" measuredHeight="368">
     <widgets xsi:type="model:Panel" id="225" x="1" width="48" height="368" measuredWidth="48" measuredHeight="368"/>
     <widgets xsi:type="model:Icon" id="226" x="13" y="5" width="24" height="24" measuredWidth="24" measuredHeight="24" icon="assets/horizontal-layout (custom)"/>
     <widgets xsi:type="model:Icon" id="227" x="12" y="28" width="24" height="24" measuredWidth="24" measuredHeight="24" icon="assets/vertical-layout (custom)"/>
@@ -151,51 +149,51 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="288" x="361" y="437" measuredWidth="433" measuredHeight="265">
-    <widgets xsi:type="model:Callout" id="269" x="88" y="164" width="73" height="57" text="movie" measuredWidth="73" measuredHeight="57" background="#00f">
+  <widgets xsi:type="model:WidgetGroup" id="288" x="537" y="432" measuredWidth="640" measuredHeight="339">
+    <widgets xsi:type="model:Callout" id="269" x="129" y="210" width="107" height="73" text="movie" measuredWidth="107" measuredHeight="73" background="#00f">
       <font bold="true"/>
     </widgets>
-    <widgets xsi:type="model:Arrow" id="270" x="180" y="92" width="105" height="8" measuredWidth="105" measuredHeight="8" left="false" right="true" direction="bottom"/>
-    <widgets xsi:type="model:Callout" id="271" x="352" y="208" width="81" height="57" text="actor" measuredWidth="81" measuredHeight="57" background="#00f">
+    <widgets xsi:type="model:Arrow" id="270" x="266" y="118" width="155" height="9" measuredWidth="155" measuredHeight="9" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:Callout" id="271" x="522" y="266" width="118" height="73" text="actor" measuredWidth="118" measuredHeight="73" background="#00f">
       <font bold="true"/>
     </widgets>
-    <widgets xsi:type="model:Label" id="272" x="200" y="67" width="53" text="actor-in" measuredWidth="53" measuredHeight="23">
+    <widgets xsi:type="model:Label" id="272" x="296" y="88" width="78" text="actor-in" measuredWidth="78" measuredHeight="23">
       <font/>
     </widgets>
-    <widgets xsi:type="model:Callout" id="273" x="282" y="56" width="81" height="57" text="actor" measuredWidth="81" measuredHeight="57" background="#00f">
+    <widgets xsi:type="model:Callout" id="273" x="418" y="71" width="118" height="73" text="actor" measuredWidth="118" measuredHeight="73" background="#00f">
       <font bold="true"/>
     </widgets>
-    <widgets xsi:type="model:Callout" id="274" x="108" y="67" width="73" height="57" text="movie" measuredWidth="73" measuredHeight="57" background="#00f">
+    <widgets xsi:type="model:Callout" id="274" x="159" y="85" width="107" height="73" text="movie" measuredWidth="107" measuredHeight="73" background="#00f">
       <font bold="true"/>
     </widgets>
-    <widgets xsi:type="model:Arrow" id="275" x="161" y="207" width="192" height="25" measuredWidth="192" measuredHeight="25" left="false" right="true"/>
-    <widgets xsi:type="model:Label" id="276" x="216" y="181" width="53" text="actor-in" measuredWidth="53" measuredHeight="23">
+    <widgets xsi:type="model:Arrow" id="275" x="237" y="266" width="284" height="31" measuredWidth="284" measuredHeight="31" left="false" right="true"/>
+    <widgets xsi:type="model:Label" id="276" x="319" y="235" width="78" text="actor-in" measuredWidth="78" measuredHeight="23">
       <font/>
     </widgets>
-    <widgets xsi:type="model:Arrow" id="277" x="321" y="110" width="63" height="98" measuredWidth="63" measuredHeight="98" right="true"/>
-    <widgets xsi:type="model:Label" id="278" x="311" y="149" width="53" text="marry" measuredWidth="53" measuredHeight="23">
+    <widgets xsi:type="model:Arrow" id="277" x="475" y="141" width="92" height="125" measuredWidth="92" measuredHeight="125" right="true"/>
+    <widgets xsi:type="model:Label" id="278" x="460" y="194" width="78" text="marry" measuredWidth="78" measuredHeight="23">
       <font/>
     </widgets>
-    <widgets xsi:type="model:Callout" id="279" width="81" height="57" text="actor" measuredWidth="81" measuredHeight="57" background="#00f">
+    <widgets xsi:type="model:Callout" id="279" width="118" height="73" text="actor" measuredWidth="118" measuredHeight="73" background="#00f">
       <font bold="true"/>
     </widgets>
-    <widgets xsi:type="model:Label" id="281" x="380" y="126" width="53" text="marry" measuredWidth="53" measuredHeight="23">
+    <widgets xsi:type="model:Label" id="281" x="562" y="165" width="78" text="marry" measuredWidth="78" measuredHeight="23">
       <font/>
     </widgets>
-    <widgets xsi:type="model:Arrow" id="282" x="81" y="24" height="56" measuredWidth="200" measuredHeight="56"/>
-    <widgets xsi:type="model:Arrow" id="283" x="41" y="56" width="72" height="109" measuredWidth="72" measuredHeight="109"/>
-    <widgets xsi:type="model:Label" id="284" x="161" y="17" width="53" text="mom" measuredWidth="53" measuredHeight="23">
+    <widgets xsi:type="model:Arrow" id="282" x="118" y="30" width="296" height="71" measuredWidth="296" measuredHeight="71"/>
+    <widgets xsi:type="model:Arrow" id="283" x="59" y="71" width="105" height="139" measuredWidth="105" measuredHeight="139"/>
+    <widgets xsi:type="model:Label" id="284" x="237" y="24" width="78" text="mom" measuredWidth="78" measuredHeight="23">
       <font/>
     </widgets>
-    <widgets xsi:type="model:Arrow" id="285" x="160" y="99" width="137" height="83" measuredWidth="137" measuredHeight="83" left="false" right="true" direction="bottom"/>
-    <widgets xsi:type="model:Label" id="286" x="184" y="112" width="53" text="actor-in" measuredWidth="53" measuredHeight="23">
+    <widgets xsi:type="model:Arrow" id="285" x="236" y="127" width="202" height="106" measuredWidth="202" measuredHeight="106" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:Label" id="286" x="272" y="146" width="78" text="actor-in" measuredWidth="78" measuredHeight="23">
       <font/>
     </widgets>
-    <widgets xsi:type="model:Label" id="287" x="32" y="120" width="53" text="actor-in" measuredWidth="53" measuredHeight="23">
+    <widgets xsi:type="model:Label" id="287" x="46" y="157" width="78" text="actor-in" measuredWidth="78" measuredHeight="23">
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="328" x="928" y="510" measuredWidth="305" measuredHeight="253">
+  <widgets xsi:type="model:WidgetGroup" id="328" x="922" y="510" measuredWidth="305" measuredHeight="253">
     <widgets xsi:type="model:Panel" id="254" width="305" height="253" measuredWidth="305" measuredHeight="253"/>
     <widgets xsi:type="model:WidgetGroup" id="264" x="265" y="119" measuredWidth="40" measuredHeight="131">
       <widgets xsi:type="model:Panel" id="265" width="40" height="131" measuredWidth="40" measuredHeight="131"/>
@@ -270,6 +268,37 @@
       <font/>
     </widgets>
   </widgets>
+  <widgets xsi:type="model:Panel" id="352" x="648" y="1144" width="305" height="253" measuredWidth="305" measuredHeight="253"/>
+  <widgets xsi:type="model:WidgetGroup" id="353" x="913" y="1263" measuredWidth="40" measuredHeight="131">
+    <widgets xsi:type="model:Panel" id="354" width="40" height="131" measuredWidth="40" measuredHeight="131"/>
+    <widgets xsi:type="model:Icon" id="355" x="6" y="16" width="27" height="33" measuredWidth="27" measuredHeight="33" icon="circled-plus (custom)"/>
+    <widgets xsi:type="model:Icon" id="356" x="6" y="74" width="27" height="33" measuredWidth="27" measuredHeight="33" icon="circled-minus (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="357" x="698" y="1226" measuredWidth="176" measuredHeight="95">
+    <widgets xsi:type="model:Callout" id="358" x="35" y="59" width="28" height="19" measuredWidth="28" measuredHeight="19" background="#00f">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="359" x="72" y="32" width="42" height="8" measuredWidth="42" measuredHeight="8" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:Callout" id="360" x="144" y="76" width="32" height="19" measuredWidth="32" measuredHeight="19" background="#00f">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Callout" id="361" x="115" y="19" width="32" height="19" measuredWidth="32" measuredHeight="19" background="#00f">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Callout" id="362" x="43" y="23" width="28" height="19" measuredWidth="28" measuredHeight="19" background="#00f">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="363" x="65" y="75" width="78" height="8" measuredWidth="78" measuredHeight="8" left="false" right="true"/>
+    <widgets xsi:type="model:Arrow" id="364" x="131" y="39" width="25" height="35" measuredWidth="25" measuredHeight="35" right="true"/>
+    <widgets xsi:type="model:Callout" id="365" width="32" height="19" measuredWidth="32" measuredHeight="19" background="#00f">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="366" x="32" y="7" width="80" height="19" measuredWidth="80" measuredHeight="19"/>
+    <widgets xsi:type="model:Arrow" id="367" x="15" y="19" width="28" height="39" measuredWidth="28" measuredHeight="39"/>
+    <widgets xsi:type="model:Arrow" id="368" x="65" y="36" width="54" height="29" measuredWidth="54" measuredHeight="29" left="false" right="true" direction="bottom"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="369" x="656" y="1216" width="125" height="105" measuredWidth="125" measuredHeight="105" alpha="0" foreground="#f00"/>
+  <widgets xsi:type="model:VScrollbar" id="222" x="907" y="416" height="344" measuredWidth="17" measuredHeight="344"/>
   <hRuler>
     <guides position="-12"/>
     <guides position="1563"/>
