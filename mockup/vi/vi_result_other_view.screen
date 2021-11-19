@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:TabbedPane" id="27" x="288" y="312" width="636" height="444" text="시각화View,TableView,PlanView" measuredWidth="636" measuredHeight="444" selection="0">
+    <items x="10" y="0" width="83" height="27" text="시각화View"/>
+    <items x="93" y="0" width="75" height="27" text="TableView"/>
+    <items x="168" y="0" width="70" height="27" text="PlanView"/>
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
