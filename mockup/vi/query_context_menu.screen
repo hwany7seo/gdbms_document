@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
-  <widgets xsi:type="model:Popup" id="8" x="128" y="56" width="233" text="{assets/fa-play} 실행&#xA;파일,>&#xA;---&#xA;GQL Assist, Ctrl+Space&#xA;GQL Template, Ctrl+Alt+Space&#xA;---&#xA;잘라내기&#xA;복사&#xA;붙여넣기&#xA;---&#xA;입력 실행 취소&#xA;저장&#xA;" measuredWidth="233" measuredHeight="244" selection="0">
+  <widgets xsi:type="model:Popup" id="8" x="128" y="56" width="233" text="{assets/fa-play} 실행&#xA;파일,>&#xA;---&#xA;GQL Assist, Ctrl+Space&#xA;GQL Template, Ctrl+Alt+Space&#xA;---&#xA;잘라내기&#xA;복사&#xA;붙여넣기&#xA;---&#xA;입력 실행 취소&#xA;저장&#xA;" measuredWidth="233" measuredHeight="244" selection="1">
     <items x="0" y="2" width="233" height="23" text="{assets/fa-play} 실행"/>
     <items x="0" y="25" width="233" height="23" text="파일,>"/>
     <items x="0" y="48" width="233" height="11" text="---"/>

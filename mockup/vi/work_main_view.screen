@@ -34,11 +34,11 @@
     <items x="313" y="0" width="47" height="27" text="~&amp;윈도우~"/>
     <items x="360" y="0" width="47" height="27" text="~&amp;도움말~"/>
   </widgets>
-  <widgets xsi:type="model:TabbedPane" id="31" x="924" y="340" width="304" height="196" text="Propeties,Chart view,디자인,설정" measuredWidth="304" measuredHeight="196" selection="0">
-    <items x="10" y="0" width="70" height="27" text="Propeties"/>
-    <items link="vi_other_view.screen" x="80" y="0" width="78" height="27" text="Chart view"/>
-    <items x="158" y="0" width="57" height="27" text="디자인"/>
-    <items x="215" y="0" width="45" height="27" text="설정"/>
+  <widgets xsi:type="model:TabbedPane" id="31" x="924" y="340" width="304" height="196" text="Properties,Chart view,디자인,설정" measuredWidth="304" measuredHeight="196" selection="0">
+    <items x="10" y="0" width="74" height="27" text="Properties"/>
+    <items link="vi_other_view.screen" x="84" y="0" width="78" height="27" text="Chart view"/>
+    <items x="162" y="0" width="57" height="27" text="디자인"/>
+    <items x="219" y="0" width="45" height="27" text="설정"/>
     <font/>
   </widgets>
   <widgets xsi:type="model:Table" id="44" x="923" y="367" width="310" height="168" text="Type,Value&#xA;type,vertex&#xA;label,movie&#xA;[-] Propertie&#xA;title, matrix&#xA;director, wachowdkis" measuredWidth="310" measuredHeight="168" alternative="#eee">
@@ -98,9 +98,9 @@
         <widgets xsi:type="model:Checkbox" id="20" x="703" text="Properties" measuredWidth="74" measuredHeight="23">
           <font/>
         </widgets>
-        <widgets xsi:type="model:Icon" id="128" x="371" y="2" height="18" measuredWidth="16" measuredHeight="18" icon="assets/search-execute (custom)"/>
+        <widgets xsi:type="model:Icon" id="128" x="371" y="2" height="18" measuredWidth="16" measuredHeight="18" foreground="#3d85c6" icon="assets/search-execute (custom)"/>
       </widgets>
-      <widgets xsi:type="model:Label" id="391" x="9" width="180" text=" 변환  {separator} {assets/fa-sign-in}  Cruise" measuredWidth="180" measuredHeight="24">
+      <widgets xsi:type="model:Label" id="391" x="9" width="180" text=" 질의변환  {separator} {assets/fa-sign-in}  Cruise" measuredWidth="180" measuredHeight="24">
         <font/>
       </widgets>
     </widgets>
@@ -308,31 +308,31 @@
     </widgets>
   </widgets>
   <widgets xsi:type="model:Icon" id="405" x="297" y="80" measuredWidth="16" measuredHeight="16" foreground="#f90" icon="assets/sql-exec2x (custom)"/>
-  <widgets xsi:type="model:WidgetGroup" id="438" x="287" y="43" height="190" measuredWidth="945" measuredHeight="190">
-    <widgets xsi:type="model:TabbedPane" id="395" width="945" height="190" text="TurboGraph++" measuredWidth="945" measuredHeight="190" selection="0">
+  <widgets xsi:type="model:WidgetGroup" id="438" x="287" y="43" height="270" measuredWidth="945" measuredHeight="270">
+    <widgets xsi:type="model:TabbedPane" id="395" width="945" height="270" text="TurboGraph++" measuredWidth="945" measuredHeight="270" selection="0">
       <items x="10" y="0" width="100" height="27" text="TurboGraph++"/>
       <font/>
     </widgets>
-    <widgets xsi:type="model:WidgetGroup" id="422" x="1" y="19" height="171" measuredWidth="33" measuredHeight="171">
-      <widgets xsi:type="model:Panel" id="397" width="33" height="171" measuredWidth="33" measuredHeight="171"/>
-      <widgets xsi:type="model:Icon" id="409" x="7" y="83" width="20" height="8" measuredWidth="20" measuredHeight="8" icon="minus (medium)"/>
-      <widgets xsi:type="model:Icon" id="411" x="8" y="5" height="11" measuredWidth="16" measuredHeight="11" foreground="#f90" icon="filled-arrow-right (custom)"/>
-      <widgets xsi:type="model:Image" id="412" x="7" y="21" width="18" height="12" measuredWidth="18" measuredHeight="12" src="assets/sql_script_exec@2x.png"/>
-      <widgets xsi:type="model:Image" id="413" x="8" y="38" width="18" height="12" measuredWidth="18" measuredHeight="12" src="assets/sql_plan@2x.png"/>
-      <widgets xsi:type="model:WidgetGroup" id="419" x="5" y="90" height="40" measuredWidth="23" measuredHeight="39">
-        <widgets xsi:type="model:Image" id="417" x="1" y="27" width="18" height="12" measuredWidth="18" measuredHeight="12" rotation="270" src="assets/page_output@2x.png"/>
-        <widgets xsi:type="model:Label" id="414" width="25" height="30" text="Output" measuredWidth="23" measuredHeight="30" rotation="270">
+    <widgets xsi:type="model:WidgetGroup" id="422" x="1" y="27" height="243" measuredWidth="33" measuredHeight="243">
+      <widgets xsi:type="model:Panel" id="397" width="33" height="243" measuredWidth="33" measuredHeight="243"/>
+      <widgets xsi:type="model:Icon" id="409" x="7" y="117" width="20" height="11" measuredWidth="20" measuredHeight="11" icon="minus (medium)"/>
+      <widgets xsi:type="model:Icon" id="411" x="8" y="7" height="15" measuredWidth="16" measuredHeight="15" foreground="#f90" icon="filled-arrow-right (custom)"/>
+      <widgets xsi:type="model:Image" id="412" x="7" y="29" width="18" height="17" measuredWidth="18" measuredHeight="17" src="assets/sql_script_exec@2x.png"/>
+      <widgets xsi:type="model:Image" id="413" x="8" y="54" width="18" height="17" measuredWidth="18" measuredHeight="17" src="assets/sql_plan@2x.png"/>
+      <widgets xsi:type="model:WidgetGroup" id="419" x="5" y="108" measuredWidth="23" measuredHeight="77">
+        <widgets xsi:type="model:Image" id="417" x="1" y="61" width="18" height="16" measuredWidth="18" measuredHeight="16" rotation="270" src="assets/page_output@2x.png"/>
+        <widgets xsi:type="model:Label" id="414" width="25" height="62" text="Output" measuredWidth="23" measuredHeight="62" rotation="270">
           <font/>
         </widgets>
       </widgets>
-      <widgets xsi:type="model:WidgetGroup" id="420" x="4" y="132" height="31" measuredWidth="23" measuredHeight="30">
-        <widgets xsi:type="model:Image" id="416" x="2" y="18" width="18" height="12" measuredWidth="18" measuredHeight="12" rotation="270" src="assets/page_error@2x.png"/>
-        <widgets xsi:type="model:Label" id="415" width="25" height="17" text="Log" measuredWidth="23" measuredHeight="17" rotation="270">
+      <widgets xsi:type="model:WidgetGroup" id="420" x="4" y="181" height="42" measuredWidth="23" measuredHeight="55">
+        <widgets xsi:type="model:Image" id="416" x="2" y="39" width="18" height="16" measuredWidth="18" measuredHeight="16" rotation="270" src="assets/page_error@2x.png"/>
+        <widgets xsi:type="model:Label" id="415" width="25" height="36" text="Log" measuredWidth="23" measuredHeight="36" rotation="270">
           <font/>
         </widgets>
       </widgets>
     </widgets>
-    <widgets xsi:type="model:TextArea" id="421" x="33" y="19" width="491" height="171" text="g.V.filter{it.name.matches(&quot;*Cruise*&quot;)}.name&#xA;g.V." measuredWidth="491" measuredHeight="171" verticalScrollbar="true">
+    <widgets xsi:type="model:TextArea" id="421" x="33" y="27" width="491" height="243" text="g.V.filter{it.name.matches(&quot;*Cruise*&quot;)}.name&#xA;g.V." measuredWidth="491" measuredHeight="243" verticalScrollbar="true">
       <font/>
     </widgets>
   </widgets>
@@ -374,7 +374,7 @@
     <items x="0" y="288" width="169" height="11" text="---"/>
     <items x="0" y="299" width="169" height="23" text="새로고침, F5"/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="435" x="208" y="784" width="233" text="{assets/fa-play} 실행&#xA;파일,>&#xA;---&#xA;GQL Assist, Ctrl+Space&#xA;GQL Template, Ctrl+Alt+Space&#xA;---&#xA;잘라내기&#xA;복사&#xA;붙여넣기&#xA;---&#xA;입력 실행 취소&#xA;저장&#xA;" measuredWidth="233" measuredHeight="244" selection="0">
+  <widgets xsi:type="model:Popup" id="435" x="208" y="784" width="233" text="{assets/fa-play} 실행&#xA;파일,>&#xA;---&#xA;GQL Assist, Ctrl+Space&#xA;GQL Template, Ctrl+Alt+Space&#xA;---&#xA;잘라내기&#xA;복사&#xA;붙여넣기&#xA;---&#xA;입력 실행 취소&#xA;저장&#xA;" measuredWidth="233" measuredHeight="244" selection="1">
     <items x="0" y="2" width="233" height="23" text="{assets/fa-play} 실행"/>
     <items x="0" y="25" width="233" height="23" text="파일,>"/>
     <items x="0" y="48" width="233" height="11" text="---"/>
@@ -388,7 +388,7 @@
     <items x="0" y="196" width="233" height="23" text="입력 실행 취소"/>
     <items x="0" y="219" width="233" height="23" text="저장"/>
   </widgets>
-  <widgets xsi:type="model:Table" id="437" x="810" y="97" width="419" height="136" text="Time,Type,Text, Duration(ms),Rows,Result&#xA;11-19 11:00:00,GQL,g.V.filter{it.name,12,3,Success&#xA;" measuredWidth="419" measuredHeight="136" verticalScrollbar="true" alternative="#eee">
+  <widgets xsi:type="model:Table" id="437" x="810" y="97" width="419" height="216" text="Time,Type,Text, Duration(ms),Rows,Result&#xA;11-19 11:00:00,GQL,g.V.filter{it.name,12,3,Success&#xA;" measuredWidth="419" measuredHeight="216" verticalScrollbar="true" alternative="#eee">
     <font/>
   </widgets>
   <hRuler>

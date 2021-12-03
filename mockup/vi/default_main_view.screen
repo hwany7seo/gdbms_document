@@ -17,11 +17,11 @@
     <items x="313" y="0" width="47" height="27" text="~&amp;윈도우~"/>
     <items x="360" y="0" width="47" height="27" text="~&amp;도움말~"/>
   </widgets>
-  <widgets xsi:type="model:TabbedPane" id="315" x="931" y="358" width="304" height="196" text="Propeties,Chart view,디자인,설정" measuredWidth="304" measuredHeight="196" selection="0">
-    <items x="10" y="0" width="70" height="27" text="Propeties"/>
-    <items link="vi_other_view.screen" x="80" y="0" width="78" height="27" text="Chart view"/>
-    <items x="158" y="0" width="57" height="27" text="디자인"/>
-    <items x="215" y="0" width="45" height="27" text="설정"/>
+  <widgets xsi:type="model:TabbedPane" id="315" x="931" y="358" width="304" height="196" text="Properties,Chart view,디자인,설정" measuredWidth="304" measuredHeight="196" selection="0">
+    <items x="10" y="0" width="74" height="27" text="Properties"/>
+    <items link="vi_other_view.screen" x="84" y="0" width="78" height="27" text="Chart view"/>
+    <items x="162" y="0" width="57" height="27" text="디자인"/>
+    <items x="219" y="0" width="45" height="27" text="설정"/>
     <font/>
   </widgets>
   <widgets xsi:type="model:Table" id="316" x="930" y="385" width="310" height="168" text="Type,Value&#xA;type,vertex&#xA;label,movie&#xA;[-] Propertie&#xA;title, matrix&#xA;director, wachowdkis" measuredWidth="310" measuredHeight="168" alternative="#eee">
@@ -40,9 +40,9 @@
         <widgets xsi:type="model:Checkbox" id="323" x="703" text="Properties" measuredWidth="74" measuredHeight="23">
           <font/>
         </widgets>
-        <widgets xsi:type="model:Icon" id="324" x="371" y="2" height="18" measuredWidth="16" measuredHeight="18" foreground="#f90" icon="assets/search-execute (custom)"/>
+        <widgets xsi:type="model:Icon" id="324" x="371" y="2" height="18" measuredWidth="16" measuredHeight="18" foreground="#3d85c6" icon="assets/search-execute (custom)"/>
       </widgets>
-      <widgets xsi:type="model:Label" id="325" x="9" width="180" text="Conversion {separator} {assets/fa-sign-in}  Enter Input" measuredWidth="180" measuredHeight="24">
+      <widgets xsi:type="model:Label" id="325" x="9" width="180" text="질의변환 {separator} {assets/fa-sign-in}  Enter Input" measuredWidth="180" measuredHeight="24">
         <font/>
       </widgets>
     </widgets>
